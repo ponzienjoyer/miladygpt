@@ -2,4 +2,4 @@ discord.py
 requests
 openai
 python-dotenv
-langchain
+langchain>=0.0.98
