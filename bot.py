@@ -27,7 +27,6 @@ current_prefix_prompt = default_prefix_prompt
 current_temperature = default_temperature
 
 prefix_messages = [{"role": "system", "content": default_prefix_prompt}]
-# todo: make temperature configurable
 llm = OpenAIChat(temperature=current_temperature, prefix_messages=prefix_messages)
 
 template = """Message from {user}: {message}
