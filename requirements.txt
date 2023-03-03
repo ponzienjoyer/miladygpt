@@ -1,0 +1,5 @@
+discord.py
+requests
+openai
+python-dotenv
+langchain
